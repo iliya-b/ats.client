@@ -36,7 +36,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
 
-    setup_requires=['pytest-runner'],
+    setup_requires=[],
     tests_require=['pytest', 'asynctest'],
 
     zip_safe=False,
